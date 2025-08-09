@@ -7,11 +7,6 @@ This repository contains my **daily learning notes** for mastering the **25 DSA 
 - Write clear notes with examples and problems solved.
 - Keep all notes organized for quick revision.
 
-## 📂 Structure
-- `Day1_TwoPointers.md` → Notes and problems for Two Pointers pattern.
-- `Day2_SlidingWindow.md` → Notes for Sliding Window pattern.
-- And so on...
-
 ## 🚀 Why I'm doing this
 - To strengthen problem-solving skills.
 - To prepare for coding interviews.
