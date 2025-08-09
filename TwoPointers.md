@@ -55,5 +55,14 @@ If you find yourself writing a **nested loop (O(n²))** but the data is sorted O
 
 ---
 
-✅ *Next Step:*  
-Add **examples** and **diagrams** here to visualize each type of two pointers in action.
+###  Opposite Direction Visual (Two Pointers)
+
+Here’s a diagram to help you visualize two pointers moving inward:
+
+![Two Pointers Visualization](https://miro.medium.com/v2/resize:fit:1400/1*iJ753jJDtXzC3kMw7LNqcg.gif)
+
+- **Left Pointer** starts at the beginning.
+- **Right Pointer** starts at the end.
+- They move inward based on the comparison with the target value.
+
+
