@@ -54,7 +54,28 @@ If you find yourself writing a **nested loop (O(n²))** but the data is sorted O
    - Usually `left < right` for opposite direction.
 
 ---
+## 🛠 How It Works
 
+You maintain **two pointers** that move through the data structure according to certain rules:
+
+1. **Opposite Direction**  
+   - One pointer starts at the **beginning** of the array.  
+   - The other starts at the **end**.  
+   - Move them towards each other depending on the condition.  
+   - **Example:** Finding a pair with a given sum.
+
+2. **Same Direction**  
+   - Both pointers start at the **beginning**.  
+   - One pointer moves faster than the other.  
+   - Often used in **sliding window** or **fast & slow pointer** problems.  
+   - **Example:** Detecting cycles in linked lists.
+
+3. **Pointer Movement Logic**  
+   - If the current sum/product/difference is **too small**, move the **left pointer** forward.  
+   - If it’s **too large**, move the **right pointer** backward.  
+   - Stop when pointers meet or condition is satisfied.
+
+---
 ###  Opposite Direction Visual (Two Pointers)
 
 Here’s a diagram to help you visualize two pointers moving inward:
@@ -64,5 +85,6 @@ Here’s a diagram to help you visualize two pointers moving inward:
 - **Left Pointer** starts at the beginning.
 - **Right Pointer** starts at the end.
 - They move inward based on the comparison with the target value.
+
 
 
