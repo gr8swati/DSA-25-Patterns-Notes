@@ -13,5 +13,4 @@ graph LR
     B --> P1[Two Pointers]
     B --> P2[Sliding Window]
     B --> P3[Fast-Slow]
-    B --> P4[...]
     P1 --> C[Optimal Solution]
