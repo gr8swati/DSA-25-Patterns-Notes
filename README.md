@@ -8,31 +8,48 @@
 
 ## 🧠 Pattern Matrix
 ```mermaid
-graph LR
+graph TD
     A[Problem] --> B{Pattern Recognition}
-    B --> P1[Two Pointers]
-    B --> P2[Fast-Slow Pointers]
-    B --> P3[Sliding Window]
-    B --> P4[Merge Intervals]
-    B --> P5[Two Heaps]
-    B --> P6[K-Way Merge]
-    B --> P7[Top K Elements]
-    B --> P8[Modified Binary Search]
-    B --> P9[Subsets]
-    B --> P10[Greedy Techniques]
-    B --> P11[Backtracking]
-    B --> P12[Dynamic Programming]
-    B --> P13[Cyclic Sort]
-    B --> P14[Topological Sort]
-    B --> P15[Matrices]
-    B --> P16[Stacks]
-    B --> P17[Graphs]
-    B --> P18[DFS]
-    B --> P19[BFS]
-    B --> P20[Trie]
-    B --> P21[Hash Maps]
-    B --> P22[Union Find]
-    B --> P23[Bitwise Manipulation]
-    B --> P24[Mathematical Patterns]
-    B --> P25[Monotonic Stack/Queue]
-    P1 --> C[Optimal Solution]
+    
+    B --> C1[Pointer-Based]
+    B --> C2[Interval & Window]
+    B --> C3[Sorting & Searching]
+    B --> C4[Heap & Priority]
+    B --> C5[Recursion & Backtracking]
+    B --> C6[Graph & Traversal]
+    B --> C7[Data Structures]
+    B --> C8[Math & Bits]
+    
+    C1 --> P1[Two Pointers]
+    C1 --> P2[Fast-Slow Pointers]
+    
+    C2 --> P3[Sliding Window]
+    C2 --> P4[Merge Intervals]
+    
+    C3 --> P5[Modified Binary Search]
+    C3 --> P6[Cyclic Sort]
+    
+    C4 --> P7[Two Heaps]
+    C4 --> P8[K-Way Merge]
+    C4 --> P9[Top K Elements]
+    
+    C5 --> P10[Greedy Techniques]
+    C5 --> P11[Backtracking]
+    C5 --> P12[Dynamic Programming]
+    C5 --> P13[Subsets]
+    
+    C6 --> P14[Topological Sort]
+    C6 --> P15[DFS]
+    C6 --> P16[BFS]
+    C6 --> P17[Union Find]
+    
+    C7 --> P18[Stacks]
+    C7 --> P19[Graphs]
+    C7 --> P20[Trie]
+    C7 --> P21[Hash Maps]
+    C7 --> P22[Monotonic Stack/Queue]
+    
+    C8 --> P23[Bitwise Manipulation]
+    C8 --> P24[Mathematical Patterns]
+    C8 --> P25[Matrices]
+
