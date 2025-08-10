@@ -1,15 +1,17 @@
-# DSA 25 Patterns - Learning Notes
+# 🔥 DSA 25 Patterns - Code Breaker's Journal
 
-This repository contains my **daily learning notes** for mastering the **25 DSA patterns** used in coding interviews.
+> `while(!mastered(dsa)) { practice(); }`  
+> *Essential patterns for coding interview mastery*
 
-## 📅 Goal
-- Learn 1 pattern per day.
-- Write clear notes with examples and problems solved.
-- Keep all notes organized for quick revision.
+![DSA Progress](https://img.shields.io/badge/Patterns_Mastered-0/25-red) 
+![Commit Activity](https://img.shields.io/badge/Daily_Updates-Yes-brightgreen)
 
-## 🚀 Why I'm doing this
-- To strengthen problem-solving skills.
-- To prepare for coding interviews.
-- To share knowledge and build a public resource.
-
----
+## 🧠 Pattern Matrix
+```mermaid
+graph LR
+    A[Problem] --> B{Pattern Recognition}
+    B --> P1[Two Pointers]
+    B --> P2[Sliding Window]
+    B --> P3[Fast-Slow]
+    B --> P4[...]
+    P1 --> C[Optimal Solution]
