@@ -36,4 +36,3 @@ graph LR
     B --> P24[Mathematical Patterns]
     B --> P25[Monotonic Stack/Queue]
     P1 --> C[Optimal Solution]
-
