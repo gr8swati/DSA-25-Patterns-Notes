@@ -11,11 +11,7 @@
 
 ---
 
-## 🧠 Pattern Matrix (Expandable Mind Map - Local Preview)
-> To view interactively, install **Markmap** extension in VS Code and preview this section.
-
-```markmap
-# 🔥 DSA 25 Patterns
+## 🧠 Pattern Matrix 
 
 ## Pointer-Based
 - Two Pointers
@@ -58,8 +54,11 @@
 - Mathematical Patterns
 - Matrices
 
----
 
+---
+# 🔥 DSA Pattern Recognition System
+
+```mermaid
 graph TD
     A[Problem] --> B{Pattern Recognition}
     
