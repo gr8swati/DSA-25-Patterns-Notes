@@ -1,17 +1,20 @@
-# 🔥 DSA 25 Patterns - Code Breaker's Journal
+<!-- Banner -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=monospace&size=22&duration=3000&pause=500&color=F75C7E&center=true&vCenter=true&width=600&lines=while(!mastered(dsa))+%7B+practice();+%7D;Essential+patterns+for+coding+interview+mastery" alt="Typing SVG" />
+</p>
 
-> `while(!mastered(dsa)) { practice(); }`  
-> *Essential patterns for coding interview mastery*
+<!-- Badges -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Patterns_Mastered-0/25-red" />
+  <img src="https://img.shields.io/badge/Daily_Updates-Yes-brightgreen" />
+</p>
 
-![DSA Progress](https://img.shields.io/badge/Patterns_Mastered-0/25-red) 
-![Commit Activity](https://img.shields.io/badge/Daily_Updates-Yes-brightgreen)
-
-## 🧠 Pattern Matrix
 ---
-markmap:
-  colorFreezeLevel: 2
----
 
+## 🧠 Pattern Matrix (Expandable Mind Map - Local Preview)
+> To view interactively, install **Markmap** extension in VS Code and preview this section.
+
+```markmap
 # 🔥 DSA 25 Patterns
 
 ## Pointer-Based
@@ -56,9 +59,7 @@ markmap:
 - Matrices
 
 ---
-# 🔥 DSA Pattern Recognition System
 
-```mermaid
 graph TD
     A[Problem] --> B{Pattern Recognition}
     
