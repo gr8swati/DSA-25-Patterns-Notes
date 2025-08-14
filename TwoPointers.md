@@ -1,6 +1,6 @@
-# 📌 Two Pointers Pattern
+#  Two Pointers Pattern
 
-## 1️⃣ What is the Two Pointers Pattern?
+## What is the Two Pointers Pattern?
 
 The **Two Pointers** technique means using **two variables (pointers or indices)** to scan through data (like arrays or strings) **in a coordinated way** instead of using nested loops.
 
@@ -10,7 +10,7 @@ The main goal: **Solve problems faster — usually O(n) instead of O(n²).**
 
 ---
 
-## 2️⃣ When to Recognize That Two Pointers Will Work
+## When to Recognize That Two Pointers Will Work
 
 Look for problems where:
 
@@ -26,7 +26,7 @@ If you find yourself writing a **nested loop (O(n²))** but the data is sorted O
 
 ---
 
-## 3️⃣ Common Types of Two Pointers
+## Common Types of Two Pointers
 
 | Type                           | Direction                          | When to Use                                    | Example Problem                           |
 | ------------------------------ | ---------------------------------- | ---------------------------------------------- | ----------------------------------------- |
@@ -37,7 +37,7 @@ If you find yourself writing a **nested loop (O(n²))** but the data is sorted O
 
 ---
 
-## 4️⃣ Core Tricks for Applying Two Pointers
+## Core Tricks for Applying Two Pointers
 
 1. **Move the correct pointer**
 
@@ -66,34 +66,23 @@ If you find yourself writing a **nested loop (O(n²))** but the data is sorted O
 
 You maintain **two pointers** that move through the data structure according to certain rules:
 
-1. **Opposite Direction**
+---
 
-   * One pointer starts at the **beginning** of the array.
-   * The other starts at the **end**.
-   * Move them towards each other depending on the condition.
-   * **Example:** Finding a pair with a given sum.
+### **Opposite Direction**
 
-2. **Same Direction**
+* One pointer starts at the **beginning** of the array.
+* The other starts at the **end**.
+* Move them towards each other depending on the condition.
+* **Example:** Finding a pair with a given sum.
 
-   * Both pointers start at the **beginning**.
-   * One pointer moves faster than the other.
-   * Often used in **sliding window** or **fast & slow pointer** problems.
-   * **Example:** Detecting cycles in linked lists.
-
-3. **Pointer Movement Logic**
-
-   * If the current sum/product/difference is **too small**, move the **left pointer** forward.
-   * If it’s **too large**, move the **right pointer** backward.
-   * Stop when pointers meet or condition is satisfied.
-
-💻 **Quick Example (Opposite Direction — Find Pair with Target Sum)**:
+ **Example (Find Pair with Target Sum)**:
 
 ```java
 int left = 0, right = arr.length - 1;
 while (left < right) {
     int sum = arr[left] + arr[right];
     if (sum == target) {
-        System.out.println("Pair: " + arr[left] + ", " + arr[right]);
+        System.out.println(arr[left] + ", " + arr[right]);
         break;
     } else if (sum < target) {
         left++;
@@ -105,12 +94,57 @@ while (left < right) {
 
 ---
 
-### Opposite Direction Visual (Two Pointers)
+### **Same Direction**
 
-Here’s a diagram to help you visualize two pointers moving inward:
+* Both pointers start at the **beginning**.
+* One pointer moves ahead to explore, the other follows to shrink or expand the range.
+* Often used in **sliding window** or **fast & slow pointer** problems.
+* **Example:** Find subarray with given sum.
+
+**Example (Sliding Window for Subarray Sum)**:
+
+```java
+int left = 0, sum = 0;
+for (int right = 0; right < arr.length; right++) {
+    sum += arr[right];
+    while (sum > target) {
+        sum -= arr[left];
+        left++;
+    }
+    if (sum == target) {
+        System.out.println("Subarray: " + left + " to " + right);
+    }
+}
+```
+
+---
+
+### **Slow & Fast Pointers**
+
+* One pointer moves **one step at a time**, the other **two steps at a time**.
+* Useful for **cycle detection** in linked lists or finding the middle node.
+
+**Example (Cycle Detection in Linked List)**:
+
+```java
+ListNode slow = head, fast = head;
+while (fast != null && fast.next != null) {
+    slow = slow.next;
+    fast = fast.next.next;
+    if (slow == fast) {
+        System.out.println("Cycle detected");
+        break;
+    }
+}
+```
+
+---
+
+### Opposite Direction Visual (Two Pointers)
 
 ![Two Pointers Visualization](https://miro.medium.com/v2/resize\:fit:1400/1*iJ753jJDtXzC3kMw7LNqcg.gif)
 
 * **Left Pointer** starts at the beginning.
 * **Right Pointer** starts at the end.
 * They move inward based on the comparison with the target value.
+
