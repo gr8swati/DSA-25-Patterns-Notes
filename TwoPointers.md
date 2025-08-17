@@ -14,6 +14,25 @@ It makes solutions much faster (often **O(n)** instead of **O(n²)**) and with m
 ---
 
 ## How It Works — 3 Main Styles
+### Opposite Direction
+
+![Opposite Pointers](relative/path/to/opposite.gif)  
+🔗 [See example GIF online](https://interviewing.io/two-pointers-interview-questions)
+
+---
+
+### Same Direction (Sliding Window)
+
+![Sliding Window](relative/path/to/sliding.gif)  
+🔗 [See example GIF online](https://medium.com/@lucien1999s.pro/two-pointer-a1dd79fefd1a)
+
+---
+
+### Slow & Fast Pointers
+
+![Slow and Fast](relative/path/to/slowfast.gif)  
+🔗 [See example GIF online](https://medium.com/@lucien1999s.pro/two-pointer-a1dd79fefd1a)
+
 
 ### 1) Opposite Direction (meet-in-the-middle)
 - Two pointers start at **left** and **right**, move towards each other based on a condition.  
@@ -116,6 +135,7 @@ while (fast != null && fast.next != null) {
 * Need max/min window or count subarrays → Sliding Window
 * Need cycle/middle in linked list → Slow & Fast
 * Need in-place reordering/compaction → Same Direction (writer/reader)
+
 
 
 
