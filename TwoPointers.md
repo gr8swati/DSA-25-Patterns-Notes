@@ -1,7 +1,4 @@
-
 # Two Pointers Pattern
-
-## What is the Two Pointers Pattern?
 
 The Two Pointers technique involves using two indices (pointers) to iterate over a data structure (usually an array or a string) to solve problems efficiently by avoiding nested loops.
 
@@ -80,7 +77,6 @@ while (fast != null && fast.next != null) {
     if (slow == fast) { /* cycle */ break; }
 }
 ```
-
 ---
 
 ## Typical Steps (mental model)
@@ -114,11 +110,12 @@ while (fast != null && fast.next != null) {
 
 ---
 
-## Quick “Which Style Do I Use?” Guide
+## Which Style Do I Use? 
 
 * Need pair from sorted array → Opposite Direction
 * Need max/min window or count subarrays → Sliding Window
 * Need cycle/middle in linked list → Slow & Fast
 * Need in-place reordering/compaction → Same Direction (writer/reader)
+
 
 
