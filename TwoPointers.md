@@ -19,7 +19,8 @@ It makes solutions much faster (often **O(n)** instead of **O(n²)**) and with m
 - Two pointers start at **left** and **right**, move towards each other based on a condition.  
 - Great for: pair sum, max area, palindrome checks.
 
-![Opposite Pointers](https://emre.me/assets/images/posts/two-pointers-1.png)
+<img width="419" height="511" alt="image" src="https://github.com/user-attachments/assets/58bf9c49-4147-4010-9511-9d2edd3fd37e" />
+
 
 **Time Complexity:** O(n)  
 **Space Complexity:** O(1)  
@@ -123,4 +124,5 @@ while (fast != null && fast.next != null) {
 * Need max/min window or count subarrays → Sliding Window
 * Need cycle/middle in linked list → Slow & Fast
 * Need in-place reordering/compaction → Same Direction (writer/reader)
+
 
