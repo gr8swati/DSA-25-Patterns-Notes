@@ -42,7 +42,7 @@ while (l < r) {
 * Right pointer **expands** the window; left pointer **shrinks** it to maintain constraints.
 * Great for: subarray sums/products, longest/shortest windows.
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a445acd4-42c3-4d7b-9283-ea95db7e3330" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/a445acd4-42c3-4d7b-9283-ea95db7e3330" />
 
 **Time Complexity:** O(n)
 **Space Complexity:** O(1)
@@ -123,6 +123,7 @@ while (fast != null && fast.next != null) {
 * Need max/min window or count subarrays → Sliding Window
 * Need cycle/middle in linked list → Slow & Fast
 * Need in-place reordering/compaction → Same Direction (writer/reader)
+
 
 
 
