@@ -19,7 +19,7 @@ It makes solutions much faster (often **O(n)** instead of **O(n²)**) and with m
 - Two pointers start at **left** and **right**, move towards each other based on a condition.  
 - Great for: pair sum, max area, palindrome checks.
 
-<img width="419" height="511" alt="image" src="https://github.com/user-attachments/assets/58bf9c49-4147-4010-9511-9d2edd3fd37e" />
+<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/58bf9c49-4147-4010-9511-9d2edd3fd37e" />
 
 **Time Complexity:** O(n)  
 **Space Complexity:** O(1)  
@@ -68,7 +68,7 @@ for (int r = 0; r < arr.length; r++) {
 * One pointer moves **1 step**, the other **2 steps**.
 * Great for: cycle detection, middle of linked list.
 
-<img width="800" height="1031" alt="image" src="https://github.com/user-attachments/assets/e0b17703-4ab8-4cff-803c-7a44ec9c782a" />
+<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/e0b17703-4ab8-4cff-803c-7a44ec9c782a" />
 
 **Time Complexity:** O(n)
 **Space Complexity:** O(1)
@@ -123,6 +123,7 @@ while (fast != null && fast.next != null) {
 * Need max/min window or count subarrays → Sliding Window
 * Need cycle/middle in linked list → Slow & Fast
 * Need in-place reordering/compaction → Same Direction (writer/reader)
+
 
 
 
