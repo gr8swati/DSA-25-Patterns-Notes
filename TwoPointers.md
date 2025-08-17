@@ -21,7 +21,6 @@ It makes solutions much faster (often **O(n)** instead of **O(n²)**) and with m
 
 <img width="419" height="511" alt="image" src="https://github.com/user-attachments/assets/58bf9c49-4147-4010-9511-9d2edd3fd37e" />
 
-
 **Time Complexity:** O(n)  
 **Space Complexity:** O(1)  
 
@@ -43,7 +42,7 @@ while (l < r) {
 * Right pointer **expands** the window; left pointer **shrinks** it to maintain constraints.
 * Great for: subarray sums/products, longest/shortest windows.
 
-![Sliding Window](https://emre.me/coding-patterns/two-pointers/sliding-window.gif)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a445acd4-42c3-4d7b-9283-ea95db7e3330" />
 
 **Time Complexity:** O(n)
 **Space Complexity:** O(1)
@@ -69,7 +68,7 @@ for (int r = 0; r < arr.length; r++) {
 * One pointer moves **1 step**, the other **2 steps**.
 * Great for: cycle detection, middle of linked list.
 
-![Slow & Fast Pointers](https://emre.me/coding-patterns/two-pointers/slow-fast.gif)
+<img width="800" height="1031" alt="image" src="https://github.com/user-attachments/assets/e0b17703-4ab8-4cff-803c-7a44ec9c782a" />
 
 **Time Complexity:** O(n)
 **Space Complexity:** O(1)
@@ -124,5 +123,6 @@ while (fast != null && fast.next != null) {
 * Need max/min window or count subarrays → Sliding Window
 * Need cycle/middle in linked list → Slow & Fast
 * Need in-place reordering/compaction → Same Direction (writer/reader)
+
 
 
