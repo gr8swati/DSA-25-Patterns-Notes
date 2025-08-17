@@ -42,6 +42,8 @@ while (l < r) {
 * Right pointer **expands** the window; left pointer **shrinks** it to maintain constraints.
 * Great for: subarray sums/products, longest/shortest windows.
 
+![Sliding Window](https://emre.me/coding-patterns/two-pointers/sliding-window.gif)
+
 **Time Complexity:** O(n)
 **Space Complexity:** O(1)
 
@@ -66,6 +68,8 @@ for (int r = 0; r < arr.length; r++) {
 * One pointer moves **1 step**, the other **2 steps**.
 * Great for: cycle detection, middle of linked list.
 
+![Slow & Fast Pointers](https://emre.me/coding-patterns/two-pointers/slow-fast.gif)
+
 **Time Complexity:** O(n)
 **Space Complexity:** O(1)
 
@@ -79,6 +83,7 @@ while (fast != null && fast.next != null) {
     if (slow == fast) { /* cycle */ break; }
 }
 ```
+
 ---
 
 ## Typical Steps (mental model)
@@ -112,15 +117,9 @@ while (fast != null && fast.next != null) {
 
 ---
 
-## Which Style Do I Use? 
+## Which Style Do I Use?
 
 * Need pair from sorted array → Opposite Direction
 * Need max/min window or count subarrays → Sliding Window
 * Need cycle/middle in linked list → Slow & Fast
 * Need in-place reordering/compaction → Same Direction (writer/reader)
-
-
-
-
-
-
