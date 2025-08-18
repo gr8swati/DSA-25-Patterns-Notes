@@ -13,7 +13,7 @@ If there is a cycle (or repetition), they will eventually **meet**.
 
 ---
 
-## 🖼️ Visual Intuition
+## Visual Intuition
 
 ### 1. Detecting a Cycle
 
@@ -21,8 +21,8 @@ If there is a cycle (or repetition), they will eventually **meet**.
 Linked List with a Cycle:
 
 head → A → B → C → D → E
-              ↑       ↓
-              H ← G ← F
+               ↑       ↓
+               H ← G ← F
 
 slow = 1 step  
 fast = 2 steps  
@@ -64,12 +64,12 @@ They meet if there is a loop on the track.
 
 ## When to Use
 
-* ✅ Cycle detection (linked lists, number sequences, circular arrays)
-* ✅ Finding the middle of a list
-* ✅ Detecting palindromes in linked lists
-* ✅ Finding the start of a loop
-* ✅ Math-based problems with repetitive cycles (e.g., **Happy Number**)
-* ✅ Problems requiring **O(1) space**
+* Cycle detection (linked lists, number sequences, circular arrays)
+* Finding the middle of a list
+* Detecting palindromes in linked lists
+* Finding the start of a loop
+* Math-based problems with repetitive cycles (e.g., **Happy Number**)
+* Problems requiring **O(1) space**
 
 ---
 
