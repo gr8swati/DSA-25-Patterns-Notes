@@ -103,7 +103,7 @@ while (fast != null && fast.next != null) {
 }
 ```
 
-### Step 4: Additional Logic
+### Step 4: Logic
 
 * **Detect cycle** → if `slow == fast` → cycle exists
 * **Find cycle start** → reset `slow = head`, move both 1 step until they meet
