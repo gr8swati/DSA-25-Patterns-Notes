@@ -44,7 +44,7 @@ Steps:
 1. slow=A, fast=A
 2. slow=B, fast=C
 3. slow=C, fast=E
-4. fast reaches end → slow=C (middle)
+4. fast reaches end → slow = C (middle)
 ```
 
 ---
