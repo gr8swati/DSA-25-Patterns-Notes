@@ -49,7 +49,7 @@ Steps:
 
 ---
 
-### 3. Tortoise and Hare Race Analogy 🐢🐇
+### 3. Tortoise and Hare Race Analogy 
 
 ```
 Track: ────────────────────────────────● (finish)
