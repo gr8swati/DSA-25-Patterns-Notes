@@ -1,4 +1,3 @@
-
 # Fast and Slow Pointers Pattern (Tortoise and Hare)
 
 The **Fast and Slow Pointers** pattern (also known as **Floyd's Cycle Detection Algorithm** or the **Tortoise and Hare technique**) is a two-pointer strategy used to efficiently traverse data structures.
